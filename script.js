@@ -113,7 +113,7 @@ boxes.forEach(box => {
         console.log('box is clicked');
         if (turnO) {
             box.innerText = 'O';
-            box.style.color = "blue";
+            box.style.color = "#00f000";
             turnO = false;
         } else {
             box.innerText = 'X';
